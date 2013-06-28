@@ -1,7 +1,7 @@
 {
   "name": "express-simplemongodbview",
-  "description": "Simple MongoDB Collection Viewer",
-  "version": "1.0",
+  "description": "Simple MongoDB Collection Viewer and CSV Export",
+  "version": "0.5.1",
   "repository": {
     "type": "git",
     "url": "git@github.com:hkonitzer/express-simplemongodbview.git"
@@ -19,10 +19,9 @@
     "connect"           : "2.x",    
     "express"           : "3.x",
     "ejs"               : "0.x",
-	"socket.io"	        : "0.9.x",
-    "socket.io-client"  : "0.x",
-	"mongodb"	        : "1.x",
-	"mongoose"	        : "3.x"
+	  "socket.io"	        : "0.9.x",    
+	  "mongodb"	          : "1.x",
+	  "mongoose"	        : "3.x"
   },
   "devDependencies": {
     "mocha"       : "*",
@@ -35,6 +34,6 @@
   "engines": {
     "node": ">= 0.8.x"
   },
-  "readme": "# Simple MongoDB Collection Viewer",
+  "readme": "# Simple MongoDB Collection Viewer and CSV Export",
   "readmeFilename": "README.md"
 }
