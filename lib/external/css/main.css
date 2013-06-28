@@ -5,16 +5,27 @@ body {
   font-family: Sans-Serif;
   background-color: #333333;
 }
+#menu {
+  min-height: 5em;
+}
 #workbench {
   height: 100%;
 }
 #collectionList {
   height: 1.7em;
   padding: 0.5em 0.5em 0.5em 0em;
+  float: left;
   display: none;
 }
 #collectionList li {
   float: left;
   width: auto !important;
-
+}
+div.workbenchcontent {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+div.options {
+  display: block;
+  float: right;
+  padding: 0.5em 0.5em 0.5em 0.5em;
 }
