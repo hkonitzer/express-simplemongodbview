@@ -58,6 +58,18 @@ Now, use it as standalone app:
 ```
 Check http://localhost and http://localhost/export
 
+Available options as object:
+
+* modelDefinitions: an existing object (require)
+* modelDefinitionFile: a file with the model definitons (use only modelDefinitionFile OR modelDefinitions)
+* web.host: The hostname, e.g. localhost
+* web.port: The port, e.g. 8080
+* web.cdnurl: The page uses some external js libs like jQuery, Backbone.js and Underscore.js. You can define an url to an external cdn to deliver these libs from there. Otherwise these libs are served from Express.
+* auth.enabled: can be set to true and a basic authentification (Basic HTTP Auth) jumps in
+* auth.user: the user name for authenticifation (default is admin)
+* auth.password: the user password (default is admin)
+
+
 You can also use this in your existing applications, change the port accordingly.
 
 ## Dependencies
