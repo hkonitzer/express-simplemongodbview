@@ -80,6 +80,7 @@ You can also use this in your existing applications, change the port accordingly
 * [Socket.io](http://socket.io) 0.9.x
 * [MongoDB](http://mongodb.github.com/node-mongodb-native/) 1.x
 * [Mongoose](https://github.com/learnboost/mongoose/) 3.x
+* [Promised-IO](https://github.com/kriszyp/promised-io) *
 * [Log](https://github.com/visionmedia/log.js/) 1.x"
 
 
