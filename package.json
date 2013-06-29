@@ -1,7 +1,7 @@
 {
   "name": "express-simplemongodbview",
   "description": "Simple MongoDB Collection Viewer and CSV Export",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "repository": {
     "type": "git",
     "url": "git@github.com:hkonitzer/express-simplemongodbview.git"
