@@ -16,16 +16,56 @@ body {
   padding: 0.5em 0.5em 0.5em 0em;
   float: left;
   display: none;
+  margin-top: 0.2em;
 }
 #collectionList li {
   float: left;
   width: auto !important;
 }
-div.workbenchcontent {
+div.collectionMain {
   padding: 0.5em 0.5em 0.5em 0.5em;
+  min-width: 50%;
+}
+div.collectionControl, div.collectionContent {
+  margin-top: 0.2em;
+  padding: 0.2em 0.2em 0.2em 0.2em;
+}
+div.collectionControl {
+  margin-right: 0.2em;
+}
+div.collectionContent { 
+}
+table.collectionContentTable {
+  display: block;
+  overflow: scroll;
+  border-collapse: collapse;
+  margin: 0 0 1em 0;
+  caption-side: top;
+}
+table.collectionContentDataTable {
+  overflow: scroll;
+}
+table.collectionContentDataTable th, table.collectionContentDataTable td {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+table.collectionContentDataTable tbody tr:nth-child(2n+1) {
+  background-color: lightgray;
+}
+.collectionContentTableLeft {
+  max-width: 25%;
+  vertical-align: top;
 }
 div.options {
   display: block;
   float: right;
   padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.ui-icon-alert {
+  float: left; 
+  margin-right: 0.3em;
+  margin-top: 0.2em;
+}
+.ui-state-error {
+  padding: 0.3em;
 }
