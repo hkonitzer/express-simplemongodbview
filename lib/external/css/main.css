@@ -36,26 +36,34 @@ div.collectionControl {
 div.collectionContent { 
 }
 table.collectionContentTable {
-  display: block;
-  overflow: scroll;
+  display: block;  
   border-collapse: collapse;
   margin: 0 0 1em 0;
   caption-side: top;
 }
-table.collectionContentDataTable {
-  overflow: scroll;
-}
-table.collectionContentDataTable th, table.collectionContentDataTable td {
-  border-bottom: 1px solid #000;
-  border-right: 1px solid #000;
-}
-table.collectionContentDataTable tbody tr:nth-child(2n+1) {
-  background-color: lightgray;
-}
 .collectionContentTableLeft {
-  max-width: 25%;
   vertical-align: top;
 }
+.collectionContentTableRight {
+  vertical-align: top;
+}
+div.dataline:nth-child(2n+1) {
+  background-color: lightgray;
+}
+div.dataline {
+  border-bottom: solid 0.1em black;
+}
+div.dataheader {
+  border-bottom: solid 0.2em black;
+  font-weight: bolder;
+}
+.datacell {  
+  padding-right: 0.3em;
+}
+.datacelllast {
+ padding-right: 0; 
+}
+
 div.options {
   display: block;
   float: right;
