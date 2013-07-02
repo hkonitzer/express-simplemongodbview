@@ -22,6 +22,7 @@
 	  "socket.io"	        : "0.9.x",    
 	  "mongodb"	          : "1.x",
 	  "mongoose"	        : "3.x",
+    "log"               : "1.x",
     "promised-io"       : "*"
   },
   "devDependencies": {
@@ -33,7 +34,7 @@
     "test": "mocha"
   },
   "engines": {
-    "node": ">= 0.8.x"
+    "node": ">= 0.6.x"
   },
   "readme": "# Simple MongoDB Collection Viewer and CSV Export",
   "readmeFilename": "README.md"
