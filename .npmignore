@@ -1,3 +1,6 @@
 *node_modules*
 npm-debug.log
-lib/external/js/*
+go.bat
+*.sublime-project
+*.sublime-workspace
+*travis.yml
