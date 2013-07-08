@@ -48,3 +48,11 @@ div.collectionContentTable {
 .ui-state-error {
   padding: 0.3em;
 }
+.collectionHeaderText, .collectionHeaderAjaxLoader  {
+  float: left;
+}
+.collectionHeaderAjaxLoader {
+  display: none;
+  margin-top: 0.1em;
+  padding-left: 0.3em;
+}
