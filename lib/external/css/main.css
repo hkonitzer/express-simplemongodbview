@@ -28,12 +28,8 @@ div.collectionMain {
   width: -webkit-fit-content;
   width: fit-content;
 }
-div.collectionControl, div.collectionContent {
-  margin-top: 0.2em;
-  padding: 0.2em 0.2em 0.2em 0.2em;
-}
-div.collectionControl {
-  margin-right: 0.2em;
+div.oplog {
+  display: none;
 }
 .ui-icon-alert {
   float: left; 
