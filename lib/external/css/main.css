@@ -5,15 +5,15 @@ body {
   font-family: Sans-Serif;
   background-color: #333333;
 }
-#menu {
-  min-height: 5em;
+#menu {  
+  display: inline-block;
 }
 #workbench {
   height: 100%;
 }
 #collectionList {
-  height: 1.7em;
-  padding: 0.5em 0.5em 0.5em 0em;
+  min-height: 1.7em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
   float: left;
   display: none;
   margin-top: 0.2em;
@@ -23,8 +23,10 @@ body {
   width: auto !important;
 }
 div.collectionMain {
-  padding: 0.5em 0.5em 0.5em 0.5em;
-  min-width: 50%;
+  padding: 0.5em 0.5em 0.5em 0.5em;  
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
 }
 div.collectionControl, div.collectionContent {
   margin-top: 0.2em;
@@ -33,13 +35,6 @@ div.collectionControl, div.collectionContent {
 div.collectionControl {
   margin-right: 0.2em;
 }
-div.collectionContent { 
-}
-div.collectionContentTable {
-  display: block;    
-  margin: 0 0 1em 0;
-}
-
 .ui-icon-alert {
   float: left; 
   margin-right: 0.3em;
